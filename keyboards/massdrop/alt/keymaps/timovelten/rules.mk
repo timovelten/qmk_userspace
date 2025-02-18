@@ -1,0 +1,3 @@
+DEBOUNCE_TYPE = sym_defer_pk
+KEY_LOCK_ENABLE = yes
+# CONSOLE_ENABLE=yes

@@ -57,3 +57,9 @@ This can also be used to control which fork is used, though only upstream `qmk_f
 1. (First time only) `git submodule add https://github.com/qmk/qmk_firmware.git`
 1. (To update) `git submodule update --init --recursive`
 1. Commit your changes to your userspace repository
+
+### Extra notes
+
+- Set the environment variable `QMK_HOME` to point to the qmk clone contained in this repository for commands like `qmk new-keymap` and so on to work
+- Build with docker using `cd qmk_firmwarel; ./util/docker_build.sh massdrop/alt:timovelten` (it supports external userspace without any configuration). 
+- When in doubt, always update the contained git submodule!
