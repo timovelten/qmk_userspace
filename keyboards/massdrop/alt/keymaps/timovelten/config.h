@@ -12,4 +12,4 @@
 // input for 40 ms after the initial keydown, then no input for another 40 ms after the key up
 // event. So the minimum delay between two successive key down events is 80 ms.
 #undef DEBOUNCE
-#define DEBOUNCE 5
+#define DEBOUNCE 3
